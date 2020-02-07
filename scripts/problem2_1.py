@@ -10,19 +10,25 @@ def memoize(f):
 
 
 @memoize
-def Fib(lim):
-	if lim <= 1:
-		return lim
+def Fib(n):
+	if n <= 1:
+		return n
 	else:
-		return Fib(lim-1)+Fib(lim-2)
+		return Fib(n-1)+Fib(n-2)
 
 
 def Sum(lim):
+	n=Fib(0)
+	i = 0
 	total = 0
-	if lim %2 == 0:
-		total += lim
-		return total
-	return Sum()
+	while n < lim:
+		i += 1
+		n = Fib(i)
+		if n %2 == 0:
+			total += n
+
+	return total
+
 
 print('Fibonacci = ', Fib(10))
-print('Sum = ', Sum)
+print('Sum = ', Sum(4000000))
