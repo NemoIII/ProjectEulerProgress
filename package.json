@@ -1,0 +1,19 @@
+{
+  "name": "projecteulerprogress",
+  "version": "1.0.0",
+  "description": "\"Tranning to became a better developer\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NemoIII/ProjectEulerProgress.git"
+  },
+  "author": "Pablo III",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NemoIII/ProjectEulerProgress/issues"
+  },
+  "homepage": "https://github.com/NemoIII/ProjectEulerProgress#readme"
+}
