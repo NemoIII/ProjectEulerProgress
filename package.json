@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/NemoIII/ProjectEulerProgress/issues"
   },
-  "homepage": "https://github.com/NemoIII/ProjectEulerProgress#readme"
+  "homepage": "https://github.com/NemoIII/ProjectEulerProgress#readme",
+  "dependencies": {
+    "memoizee": "^0.4.14"
+  }
 }
